@@ -11,3 +11,9 @@
 	-o-border-radius: $radius;
 	border-radius: $radius;
 }
+
+@mixin boxShadow {
+	-webkit-box-shadow: 1px 1px 1px $grey;
+	-moz-box-shadow: 1px 1px 1px $grey;
+	box-shadow: 1px 1px 1px $grey;
+}

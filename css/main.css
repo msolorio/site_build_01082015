@@ -179,6 +179,8 @@ th {
   padding: 0; }
 
 *, *:before, *:after {
+  margin: 0;
+  padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -203,11 +205,11 @@ GENERAL STYLES
 FONT STYLES
 ***************************************/
 h1, h2, h3 {
-  color: #002b5a;
-  margin: 0 0 42px;
-  text-transform: capitalize; }
+  color: #002b5a; }
 
 h1, h2 {
+  text-transform: capitalize;
+  margin: 0 0 30px;
   font-weight: 300; }
 
 h1 {
@@ -223,19 +225,17 @@ h3 {
 HEADER STYLES
 *****************************/
 .row1-section {
-  margin: 40px 0 0; }
+  margin: 35px 0 0; }
 
 .header-section {
   width: 63%;
   float: left;
   padding-right: 19px; }
 
-.header-h1 {
-  margin: 0 0 25px; }
-
 .header-p {
   color: #333;
-  font-size: 18px; }
+  font-size: 18px;
+  margin-bottom: 22px; }
 
 /*****************************
 FINDER STYLES
@@ -281,8 +281,39 @@ FINDER STYLES
 /*****************************
 IN GRAVIDA SECTION
 *****************************/
-.in-gravida-section {
+.in-gravida-section, .products-section {
   background: #f7f7f7;
-  padding: 35px; }
+  padding: 35px 35px 0;
+  margin: 0 0 4px; }
+
+.in-gravida-topic {
+  width: 33.33333%;
+  float: left;
+  height: 188px; }
+
+.in-gravida-p {
+  height: 90px;
+  padding: 0 18px 0 0;
+  font-size: 14px; }
+
+.in-gravida-h3 {
+  margin-bottom: 5px; }
+
+.in-gravida-learnmore {
+  background: #fff;
+  padding: 10px 16px;
+  border: 1px solid #eaeaea;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 1px #eaeaea;
+  -moz-box-shadow: 1px 1px 1px #eaeaea;
+  box-shadow: 1px 1px 1px #eaeaea; }
+
+/*****************************
+PRODUCTS SECTION
+*****************************/
 
 /*# sourceMappingURL=main.css.map */
