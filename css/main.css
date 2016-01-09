@@ -186,6 +186,9 @@ th {
   box-sizing: border-box;
   font-family: 'Lato',sans-serif; }
 
+ul {
+  list-style-type: none; }
+
 /************************************
 GENERAL STYLES
 ************************************/
@@ -196,7 +199,7 @@ GENERAL STYLES
   background: #EDEDED; }
 
 .window-wrap-inner {
-  padding: 0 65px; }
+  padding: 0 65px 45px; }
 
 .clear-both {
   clear: both; }
@@ -219,7 +222,8 @@ h2 {
   font-size: 40px; }
 
 h3 {
-  font-size: 15px; }
+  font-size: 16px;
+  margin-bottom: 5px; }
 
 /*****************************
 HEADER STYLES
@@ -283,21 +287,19 @@ IN GRAVIDA SECTION
 *****************************/
 .in-gravida-section, .products-section {
   background: #f7f7f7;
-  padding: 35px 35px 0;
+  padding: 35px;
   margin: 0 0 4px; }
 
 .in-gravida-topic {
   width: 33.33333%;
   float: left;
-  height: 188px; }
+  height: 170px; }
 
 .in-gravida-p {
+  color: #666666;
   height: 90px;
   padding: 0 18px 0 0;
   font-size: 14px; }
-
-.in-gravida-h3 {
-  margin-bottom: 5px; }
 
 .in-gravida-learnmore {
   background: #fff;
@@ -315,5 +317,56 @@ IN GRAVIDA SECTION
 /*****************************
 PRODUCTS SECTION
 *****************************/
+.products-h2, .products-filter-by {
+  display: inline-block; }
+
+.products-h2 {
+  float: left; }
+
+.products-filter-by {
+  float: right; }
+
+.products-filter-by-span {
+  color: #666666;
+  margin-right: 10px; }
+
+.products-filter-select {
+  height: 42px;
+  background: transparent;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  -webkit-box-shadow: 1px 1px 1px #eaeaea;
+  -moz-box-shadow: 1px 1px 1px #eaeaea;
+  box-shadow: 1px 1px 1px #eaeaea; }
+
+.product-block {
+  width: 23.5%;
+  float: left;
+  background: #fff;
+  margin-right: 1.5%;
+  padding: 15px; }
+
+.product-price {
+  color: #4987ca;
+  font-size: 13px;
+  margin: 15px 0; }
+
+.product-text {
+  color: #666666;
+  height: 90px; }
+
+.product-img {
+  display: block;
+  width: 100%;
+  max-width: 149px; }
+
+.product-learnmore {
+  color: #002b5a;
+  margin-top: 12px;
+  display: block;
+  text-decoration: none; }
+
+.product-learnmore-img {
+  margin-left: 8px; }
 
 /*# sourceMappingURL=main.css.map */

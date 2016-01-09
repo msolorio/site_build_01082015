@@ -14,7 +14,7 @@ GENERAL STYLES
 	background:#EDEDED;
 }
 .window-wrap-inner {
-	padding:0 65px;
+	padding:0 65px 45px;
 }
 .clear-both{
 	clear: both;
@@ -23,7 +23,7 @@ GENERAL STYLES
 FONT STYLES
 ***************************************/
 h1, h2, h3 {
-	color: $h1h2h3;
+	color: $darkblue;
 }
 h1, h2 {
 	
@@ -38,7 +38,8 @@ h2 {
 	font-size: 40px;
 }
 h3 {
-	font-size: 15px;
+	font-size: 16px;
+	margin-bottom:5px;
 }
 
 /*****************************
@@ -74,7 +75,7 @@ FINDER STYLES
 	margin: 0 0 20px;
 }
 .finder-p {
-	color: $h1h2h3;
+	color: $darkblue;
 	margin-bottom: 5px;
 	font-size: 12px;
 }
@@ -83,7 +84,7 @@ FINDER STYLES
 	border: 1px solid $grey;
 }
 .finder-state {
-	color: $h1h2h3;
+	color: $darkblue;
 	font-size: 13px;
 }
 .finder-button {
@@ -92,7 +93,7 @@ FINDER STYLES
 	vertical-align:bottom;
 	margin-left:-5px;
 	padding:0;
-	background:#fff;
+	background:$white;
 	border:1px solid $grey;
 }
 
@@ -101,24 +102,22 @@ IN GRAVIDA SECTION
 *****************************/
 .in-gravida-section, .products-section {
 	background: $lightgrey;
-	padding:35px 35px 0;
+	padding:35px;
 	margin: 0 0 4px;
 }
 .in-gravida-topic {
 	width:33.33333%;
 	float:left;
-	height:188px;
+	height:170px;
 }
 .in-gravida-p {
+	color: $darkgrey;
 	height:90px;
 	padding: 0 18px 0 0;
 	font-size:14px;
 }
-.in-gravida-h3 {
-	margin-bottom:5px;
-}
 .in-gravida-learnmore {
-	background:#fff;
+	background:$white;
 	padding: 10px 16px;
 	border: 1px solid $grey;
 	@include borderRadius(3px);
@@ -129,3 +128,54 @@ IN GRAVIDA SECTION
 /*****************************
 PRODUCTS SECTION
 *****************************/
+.products-h2, .products-filter-by {
+	display:inline-block;
+}
+.products-h2 {
+	float:left;
+}
+.products-filter-by {
+	float:right;
+}
+.products-filter-by-span {
+	color:$darkgrey;
+	margin-right:10px;
+}
+.products-filter-select {
+	height:42px;
+	background:transparent;
+	background:$white;
+	border:1px solid $grey;
+	@include boxShadow;
+}
+.product-block {
+	width:23.5%;
+	float:left;
+	background:$white;
+	margin-right:1.5%;
+	padding:15px;
+}
+.product-price {
+	color: $babyblue;
+	font-size: 13px;
+	margin:15px 0;
+}
+.product-text {
+	color:$darkgrey;
+	height: 90px;
+}
+.product-img {
+	display:block;
+	width:100%;
+	max-width:149px;
+}
+.product-learnmore {
+	color: $darkblue;
+	margin-top:12px;
+	display:block;
+	text-decoration:none;
+}
+.product-learnmore-img {
+	margin-left: 8px;
+}
+
