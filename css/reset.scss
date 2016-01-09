@@ -1,0 +1,4 @@
+*, *:before, *:after {
+	@include boxSizing;
+	font-family:'Lato',sans-serif;
+}

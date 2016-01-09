@@ -1,0 +1,29 @@
+/***************************************
+FONT STYLES
+***************************************/
+h1, h2, h3 {
+	color: $h1h2h3;
+	bottom-margin:42px;
+	test-style: capitalize;
+}
+h1, h2 {
+	font-weight: 300;
+}
+h1 {
+	font-size: 42px;
+}
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 15px;
+}
+.header-p {
+	color: $headerP;
+	font-size: 18px;
+}
+.finder-p {
+	font-size: 12px;
+	text-align: justify;
+}
+
